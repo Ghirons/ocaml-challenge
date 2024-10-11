@@ -1,8 +1,3 @@
-
-let nand a b = not (a && b);;
-
-let xor a b = (a && not(b)) || (not(a) && b);;
-
 let mux2 s0 a b = 
     if s0 = false
         then a
